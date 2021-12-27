@@ -1,0 +1,46 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(10,10%);
+    grid-template-rows: 100px 700px 200px;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd hd hd"
+    "side side side side side side sec sec sec sec"
+    "ft ft ft ft ft ft ft ft ft ft";
+}
+
+header {
+    grid-area: hd;
+}
+
+
+aside {
+    grid-area: side;
+}
+
+
+section {
+    grid-area: sec;
+}
+
+
+footer {
+    grid-area: ft;
+}

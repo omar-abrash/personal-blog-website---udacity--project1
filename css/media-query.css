@@ -1,0 +1,107 @@
+/* container width for each media query  */
+@media (min-width: 321px) and (max-width: 599px) {
+    .container {
+        width: 300px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .container {
+        width: 580px;
+    }
+}
+
+
+@media (min-width: 901px) {
+    .container {
+        width: 880px;
+    }
+}
+
+/* devide the grid depend on container width   */
+@media (max-width:599px) {
+    .container {
+        grid-template-rows: 100px 300px 550px 50px;
+        grid-template-areas:
+        "hd hd hd hd hd hd hd hd hd hd"
+        "sec sec sec sec sec sec sec sec sec sec"
+        "side side side side side side side side side side"
+        "ft ft ft ft ft ft ft ft ft ft";
+    }
+}
+
+
+@media (min-width:600px) and (max-width:900px) {
+    .container {
+        grid-template-rows: 150px 700px 150px;
+    }
+}
+
+/* rearrangment of header element depend on container width  */
+@media (max-width:599px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    header ul li { 
+    font-size: 15px;
+    padding: 10px 10px 8px 10px;
+    }
+}
+
+
+@media (min-width:600px) and (max-width:900px) {
+        header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    header ul li { 
+    padding: 34px;
+    }
+}
+
+/* change font size of side part depend on container width  */
+@media (max-width:599px) {
+    aside h1 {
+        font-size: 1.5em;
+    }
+    aside article h2 {
+        font-size: 1em;
+    }
+    aside article p {
+        font-size: 15px;
+        max-width: 270px;
+    }
+}
+
+
+@media (min-width:600px) and (max-width:900px) {
+    aside h1 {
+        font-size: 2em;
+    }
+    aside article h2 {
+        font-size: 1.3em;
+        margin-top: 50px;
+    }
+    aside article p {
+        font-size: 16px;
+        max-width: 300px;
+        margin-top: 50px;
+    }
+}
+
+/* personal image style depend on container width    */
+@media (max-width:599px) {
+    section {
+        text-align: center;
+    }
+    section img {
+        width: 70%;
+        min-width: 210px;
+        border-radius: 20%;
+        margin-top: 10px;
+    }
+}

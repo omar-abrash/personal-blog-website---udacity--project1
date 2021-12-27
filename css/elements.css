@@ -1,0 +1,143 @@
+/* start elemnt styling  */
+/* header part  */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #48c2c2b3;
+    box-shadow: 1px 1px 10px silver;
+}
+
+
+header .logo {
+    font-size: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: -10px;
+}
+
+
+header .logo span {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+
+header ul {
+    display: flex;
+}
+
+
+header ul li { 
+    font-size: 20px;
+    padding: 38px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+header ul li:hover {
+    background-color: #48c2c2;
+}
+
+
+header ul li a {
+    text-decoration: none;
+}
+
+/* aside part  */
+aside {
+    background-color: #aae7ffb3;;
+}
+
+
+aside h1 {
+    font-size: 2.5em;
+    text-transform: capitalize;
+    padding-left: 10px;
+    text-shadow: 1px 1px 5px #0084ff;
+    font-weight: 900;
+}
+
+
+aside article {
+    padding-left: 10px;
+}
+
+
+aside article h2 {
+    font-size: 2em;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+
+aside article p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 500;
+    text-align: left;
+    text-indent: 10px;
+    max-width: 450px;
+    text-transform: capitalize;
+}
+
+
+aside article button {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #48c2c2b3;
+    border: none;
+    box-shadow: 1px 1px 5px silver;
+}
+
+
+aside button:hover {
+    background-color: #48c2c2;
+}
+
+/* section content part  */
+section {
+    background-color: #aae7ffb3;
+}
+
+
+section img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+section em{
+    font-size: 10px;
+}
+
+/* footer part  */
+footer {
+    background-color: #48c2c2b3;
+    box-shadow: 1px 1px 10px silver;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+footer i {
+    font-size: 40px;
+    padding: 5px;
+    background-color: #48c2c2;
+}
+
+
+
+
